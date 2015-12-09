@@ -36,6 +36,13 @@ min-height:-moz-calc(100% - 50px);}
 <style media="screen and (orientation:landscape)" type="text/css">
 body{background-image:url('img/fond_land.png');}
 </style>
+<script src="https://github.com/typicaljoe/taffydb/raw/master/taffy.js"></script>
+<script>
+var chants = TAFFY([{id:"1",page:"1",titre:"Il est vivant",part:"117"},{id:"2",page:"1",titre:"Je suis venu pour la vie",part:"123"}]);
+chants({page:"1"}).each(function (r) {
+document.write("p" + r.page + " - " + r.titre + " - " + r.part + "<br>");
+});
+</script>
 </head>
 <body>
 <table>
@@ -50,6 +57,6 @@ body{background-image:url('img/fond_land.png');}
 </form>
 </div>
 <div style="height:50px;"></div>
-<p>L'application est en pleine maintenance!</p>
+<p style="background-color:#DDD;opacity:0.9;" id="zone"></p>
 </body>
 </html>
