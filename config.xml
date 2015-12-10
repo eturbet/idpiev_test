@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.phonegap.helloworld"
+	version   = "1.0.0">
+<name>IEV Paroles</name>
+<description>No description</description>
+<author>Emmanuel Turbet-Delof</author>
+<plugin name="org.apache.cordova.file" spec="1.3.3" source="pgb" />
+</widget>
