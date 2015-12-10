@@ -73,9 +73,9 @@ body{background-image:url('img/fond_land.png');}
   var filePath = window.appRootDir.fullPath + "/test.pdf";
   fileTransfer.download(
   url, filePath, function(entry) {
-  alert("download complete: " + entry.fullPath);
+  document.write("done");
   }, function(error) {
-  alert("download error" + error.source);
+  document.write("not done");
   });
   }
 </script>
