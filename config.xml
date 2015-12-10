@@ -7,4 +7,5 @@
 <description>No description</description>
 <author>Emmanuel Turbet-Delof</author>
 <plugin name="org.apache.cordova.file" spec="1.3.3" source="pgb" />
+<icon src="img/logo.png"/>
 </widget>
